@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&family=Montserrat:ital,wght@0,200;0,300;1,300;1,600;1,800;1,900&family=Unbounded:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.wrap{
+    width: 100%;
+    min-height: 250vh;
+    display: flex;
+    background-color:#f0f0f6 ;
+    justify-content: space-between;
+    
+}
+.leftBox{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    padding: 30px 0px;
+}
+.MyLeftInf{
+    width: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.OvalImgBox{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 50%;
+    background-image: url(./img/MyPhoto.jpg);
+    position: relative;
+    background-position: center;
+    background-size:contain;
+}
+.Name{
+    font-weight:bold;
+}
+.MySocial i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.MySocial a{
+text-decoration:none ;
+color: #000;
+}
+.instImg:hover{
+    color: purple;
+}
+.facebookImg:hover{
+    color: blue;
+}
+.telegramImg:hover{
+    color: blue;
+}
+.githubImg:hover{
+    color: #8E49AD;
+}
+hr{
+    width:70%;
+    height: 2px;
+    background-color:#F0F0F6;
+    position: relative;
+}
+.AgeLine{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.leftSide{
+    height: 25px;
+    background-color: #ffb400;
+}
+.RasidanceLine{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.MyInf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.MyInf h3{
+    position: relative;
+ display: flex;
+}
+.EnglishLineP{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.EnglishLine{
+    width: 100%;
+    height: 7px;
+    display: flex;
+    position: relative;
+    border: 1px solid #ffb400;
+    border-radius: 20px;
+}
+.EnglishLine2{
+    display: flex;
+    width: 55%;
+    height: 100%;
+    background-color: #ffb400;
+}
+
+.SkillsLineP{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.SkillsLine{
+    width: 100%;
+    height: 7px;
+    display: flex;
+    position: relative;
+    border: 1px solid #ffb400;
+    border-radius: 20px;
+}
+.HTMLLine{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    background-color: #ffb400;
+}
+.CSSLine{
+    display: flex;
+    width: 85%;
+    height: 100%;
+    background-color: #ffb400;
+}
+.JSLine{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    background-color: #ffb400;
+}
+.CenterBox{
+    width: 70%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+    left: 21%;
+}
+.MyCenterBox{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: end;
+}
+.CenterBoxLogo{
+    height: 100%;
+    display: flex;
+    padding: 13% 0px;
+    position: relative;
+    flex-direction: column;
+}
+.CenterBoxLogo p{
+font-size: 35px;
+font-weight: 900;
+}
+.cenW{
+    color: #ffb400;
+}
+.CenterLogo2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.CenterBoxImg{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    background-image: url(./img/MyPhoto2.png);
+}
+.PrLogo{
+    font-size: 30px;
+    font-weight:900;
+    position: relative;
+}
+
+.RightBox{
+    width: 6%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+}
+.ProjectsBox{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    background-color: #fff;
+    padding: 50px 0px;
+    flex-direction: column;
+}
+.ProjectsLine{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.PrBox{
+width: 500px;
+height: 500px;
+display: flex;
+position: relative;
+border-radius: 20px;
+border: 2px solid #ffb400;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding-block-end: 20px;
+}
+.PrBox img{
+width: 99.8%;
+height: 320px;
+display: flex;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+cursor: zoom-in;
+}
+.PrBox{
+    font-size: 15px;
+    font-weight: 700;
+}
+.PrBox button{
+    width: 200px;
+    height: 50px;
+    background-color: #ffb400;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.en{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+.ua{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    cursor: pointer;
+}
+.LngBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
